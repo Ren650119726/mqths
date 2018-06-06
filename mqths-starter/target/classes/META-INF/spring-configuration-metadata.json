@@ -1,0 +1,62 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths",
+      "type": "com.reefe.mqths.starter.config.MqthConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.buffer-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.mqth-db-config",
+      "type": "com.reefe.mqths.common.config.MqthDbConfig"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.need-recover",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.recover-delay-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.repository-suffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.repository-support",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.retry-max",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.scheduled-delay",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.scheduled-thread-max",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.reefe.mqths.starter.config.MqthConfigProperties",
+      "name": "com.reefe.mqths.serializer",
+      "type": "java.lang.String"
+    }
+  ]
+}

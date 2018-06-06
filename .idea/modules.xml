@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Use-MyStarter/Use-MyStarter.iml" filepath="$PROJECT_DIR$/Use-MyStarter/Use-MyStarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths.iml" filepath="$PROJECT_DIR$/mqths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-common/mqths-common.iml" filepath="$PROJECT_DIR$/mqths-common/mqths-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-core/mqths-core.iml" filepath="$PROJECT_DIR$/mqths-core/mqths-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-mq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/mqths-rabbitmq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/mqths-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq/mqths-rocketmq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-rocketmq/mqths-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-rpc/mqths-rpc.iml" filepath="$PROJECT_DIR$/mqths-rpc/mqths-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-starter/mqths-starter.iml" filepath="$PROJECT_DIR$/mqths-starter/mqths-starter.iml" />
+    </modules>
+  </component>
+</project>

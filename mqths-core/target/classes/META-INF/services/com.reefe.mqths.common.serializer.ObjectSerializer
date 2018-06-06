@@ -1,0 +1,2 @@
+com.reefe.mqths.common.serializer.impl.JavaSerializer
+com.reefe.mqths.common.serializer.impl.KryoSerializer

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Use-MyStarter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mqths-starter" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

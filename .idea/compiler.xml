@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mqth-common" />
+        <module name="mqth-core" />
+        <module name="mqths-common" />
+        <module name="mqths-core" />
+        <module name="mqths-rabbitmq" />
+        <module name="mqths-rocketmq" />
+        <module name="mqths-rpc" />
+        <module name="mqths-starter" />
+        <module name="mystarter" />
+        <module name="Use-MyStarter" />
+        <module name="usemystarter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mqth-common" target="1.8" />
+      <module name="mqth-core" target="1.8" />
+      <module name="mqths" target="1.8" />
+      <module name="mqths-common" target="1.8" />
+      <module name="mqths-core" target="1.8" />
+      <module name="mqths-mq" target="1.8" />
+      <module name="mqths-rabbitmq" target="1.8" />
+      <module name="mqths-rocketmq" target="1.8" />
+      <module name="mqths-rpc" target="1.8" />
+      <module name="mqths-starter" target="1.8" />
+      <module name="Use-MyStarter" target="1.8" />
+      <module name="usemystarter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
