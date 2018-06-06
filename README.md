@@ -1,5 +1,7 @@
-mqths 
+mqths
 ================
+
+## [myth](https://github.com/yu199195/myth)简易版，用于学习基于本地事务可靠消息最终一致性。
 
 #####  采用消息队列解决分布式事务的开源框架, 基于java语言来开发（JDK1.8），支持springcloud等rpc框架进行分布式事务。
 
@@ -7,7 +9,7 @@ mqths
 
   * ##### RPC框架支持 : springcloud。
 
-  * ##### 消息中间件支持 : rabbitmq,roceketmq。
+  * ##### 消息中间件支持 : amqp(rabbitmq),roceketmq。
 
   * ##### 本地事务存储支持 : mysql。
 
