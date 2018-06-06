@@ -28,6 +28,7 @@ disconf
 target
 
 # other ignore
+logs
 *.log
 *.tmp
 Thumbs.db
