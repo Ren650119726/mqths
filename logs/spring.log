@@ -1394,3 +1394,40 @@ java.lang.NullPointerException: null
 2018-06-06 17:20:46.050 ERROR 11860 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
 2018-06-06 17:20:46.050  INFO 11860 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
 2018-06-06 17:20:47.178  INFO 11860 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.444 seconds (JVM running for 7.33)
+2018-06-06 17:23:11.112  INFO 11704 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-06 17:23:12.916  INFO 11704 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1790 ms
+2018-06-06 17:23:14.202  INFO 11704 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56ccd751: startup date [Wed Jun 06 17:23:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5f9be66c
+2018-06-06 17:23:14.293  INFO 11704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-06 17:23:14.297  INFO 11704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-06 17:23:14.298  INFO 11704 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-06 17:23:14.386  INFO 11704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-06 17:23:14.386  INFO 11704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-06 17:23:14.457  INFO 11704 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-06 17:23:14.593 DEBUG 11704 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-06 17:23:14.596 DEBUG 11704 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-06 17:23:14.596 DEBUG 11704 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-06 17:23:14.633  INFO 11704 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-06 17:23:14.935 ERROR 11704 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-06 17:23:14.937  INFO 11704 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-06 17:23:16.046  INFO 11704 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.323 seconds (JVM running for 7.315)
+2018-06-06 17:23:44.937 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:23:44.980 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:21:36
+2018-06-06 17:23:45.139 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:25:53.140 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:25:53.140 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:23:45
+2018-06-06 17:25:53.154 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:28:01.155 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:28:01.155 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:25:53
+2018-06-06 17:28:01.158 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:30:34.876 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:30:34.879 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:28:26
+2018-06-06 17:30:34.906 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:33:01.338 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:33:01.338 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:30:53
+2018-06-06 17:33:01.341 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:35:09.342 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:35:09.342 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:33:01
+2018-06-06 17:35:09.345 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-06 17:37:17.346 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-06 17:37:17.346 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-06 17:35:09
+2018-06-06 17:37:17.349 DEBUG 11704 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
