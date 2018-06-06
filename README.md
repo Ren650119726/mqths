@@ -7,7 +7,7 @@ mqths
 
   * ##### RPC框架支持 : springcloud。
 
-  * ##### 消息中间件支持 : amqp(rabbitmq),roceketmq。
+  * ##### 消息中间件支持 : rabbitmq,roceketmq。
 
   * ##### 本地事务存储支持 : mysql。
 
