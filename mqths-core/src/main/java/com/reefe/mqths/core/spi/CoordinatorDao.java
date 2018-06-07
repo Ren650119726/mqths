@@ -83,4 +83,12 @@ public interface CoordinatorDao {
      * @return List<MythTransaction>
      */
     List<MqthTransaction> listAllByDelay(Date date);
+
+    /**
+     * 根据事务id查询事务
+     *
+     * @param transId
+     * @return
+     */
+    MqthTransaction findByTransId(String transId);
 }

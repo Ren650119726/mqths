@@ -35,7 +35,7 @@ public class RocketmqSendServiceImpl implements MqthMqSendService {
      * @param message     MythTransaction实体对象转换成byte[]后的数据
      */
     @Override
-    public Boolean sendMessage(String destination, Integer pattern, byte[] message) {
+    public void sendMessage(String destination, Integer pattern, byte[] message) {
         try {
             Message msg;
             List<String> stringList =

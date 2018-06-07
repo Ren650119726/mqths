@@ -99,6 +99,17 @@ public class CoordinatorServiceImpl implements CoordinatorService {
         return coordinatorDao.listAllByDelay(date);
     }
 
+    /**
+     * 根据事务查询事务
+     *
+     * @param transId
+     * @return
+     */
+    @Override
+    public MqthTransaction findByTransId(String transId) {
+        return coordinatorDao.findByTransId(transId);
+    }
+
 
     /**
      * 获取项目模块名称

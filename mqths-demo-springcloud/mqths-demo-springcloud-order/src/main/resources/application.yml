@@ -1,0 +1,83 @@
+server:
+  port: 8884
+  contextPath: /
+  address: 0.0.0.0
+
+
+spring:
+    datasource:
+        driver-class-name:  com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/myth_order?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: root
+        initialSize: 20
+        minIdle: 20
+        maxActive: 100
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 30000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxPoolPreparedStatementPerConnectionSize: 20
+        filters: stat,wall,slf4j
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    application:
+      name: order-service
+
+    rocketmq:
+        namesrvAddr: localhost:9876
+        producerGroupName: producerGroup
+        retryTimesWhenSendFailed: 10
+        role: producer  #指定角色 producer——生产者 consumer——消费者
+
+mybatis:
+  type-aliases-package: com.reefe.mqths.demo.springcloud.order.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+#${random.int[9000,9999]}
+eureka:
+ client:
+     serviceUrl:
+       defaultZone: http://localhost:8761/eureka/
+
+
+com:
+  reefe :
+      mqths :
+        serializer : kryo
+        needRecover: true
+        recoverDelayTime : 128
+        retryMax : 30
+        scheduledDelay : 128
+        scheduledThreadMax :  10
+        repositorySupport : db
+        mqthDbConfig :
+                 driverClassName  : com.mysql.jdbc.Driver
+                 url :  jdbc:mysql://localhost:3306/myth?useUnicode=true&amp;characterEncoding=utf8
+                 username : root
+                 password : root
+
+
+logging:
+    level:
+        root: error
+        org.springframework.web: info
+        org.apache.ibatis: info
+        com.reefe.mqths.bonuspoint: info
+        com.reefe.mqths.lottery: debug
+        com.reefe.mqths: debug
+
+
+    path: "./logs"
+
+inventory-service:
+  ribbon:
+   MaxAutoRetries: 0
+   MaxAutoRetriesNextServer: 0
+
+account-service:
+  ribbon:
+   MaxAutoRetries: 0
+   MaxAutoRetriesNextServer: 0

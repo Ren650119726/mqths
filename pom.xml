@@ -20,6 +20,7 @@
         <module>mqths-mq</module>
         <module>mqths-starter</module>
         <module>Use-MyStarter</module>
+        <module>mqths-demo-springcloud</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -68,6 +69,11 @@
             <dependency>
                 <groupId>com.reefe.mqths</groupId>
                 <artifactId>mqths-rpc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.reefe.mqths</groupId>
+                <artifactId>mqths-mq</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

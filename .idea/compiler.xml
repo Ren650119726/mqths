@@ -10,6 +10,12 @@
         <module name="mqth-core" />
         <module name="mqths-common" />
         <module name="mqths-core" />
+        <module name="mqths-demo-springcloud-account" />
+        <module name="mqths-demo-springcloud-account-api" />
+        <module name="mqths-demo-springcloud-eureka" />
+        <module name="mqths-demo-springcloud-inventory" />
+        <module name="mqths-demo-springcloud-inventory-api" />
+        <module name="mqths-demo-springcloud-order" />
         <module name="mqths-rabbitmq" />
         <module name="mqths-rocketmq" />
         <module name="mqths-rpc" />
@@ -25,6 +31,13 @@
       <module name="mqths" target="1.8" />
       <module name="mqths-common" target="1.8" />
       <module name="mqths-core" target="1.8" />
+      <module name="mqths-demo-springcloud" target="1.8" />
+      <module name="mqths-demo-springcloud-account" target="1.8" />
+      <module name="mqths-demo-springcloud-account-api" target="1.8" />
+      <module name="mqths-demo-springcloud-eureka" target="1.8" />
+      <module name="mqths-demo-springcloud-inventory" target="1.8" />
+      <module name="mqths-demo-springcloud-inventory-api" target="1.8" />
+      <module name="mqths-demo-springcloud-order" target="1.8" />
       <module name="mqths-mq" target="1.8" />
       <module name="mqths-rabbitmq" target="1.8" />
       <module name="mqths-rocketmq" target="1.8" />

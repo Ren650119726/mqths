@@ -6,11 +6,19 @@
       <module fileurl="file://$PROJECT_DIR$/mqths.iml" filepath="$PROJECT_DIR$/mqths.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-common/mqths-common.iml" filepath="$PROJECT_DIR$/mqths-common/mqths-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-core/mqths-core.iml" filepath="$PROJECT_DIR$/mqths-core/mqths-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account/mqths-demo-springcloud-account.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account/mqths-demo-springcloud-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account-api/mqths-demo-springcloud-account-api.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account-api/mqths-demo-springcloud-account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-eureka/mqths-demo-springcloud-eureka.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-eureka/mqths-demo-springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory/mqths-demo-springcloud-inventory.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory/mqths-demo-springcloud-inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory-api/mqths-demo-springcloud-inventory-api.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory-api/mqths-demo-springcloud-inventory-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/mqths-demo-springcloud-order.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/mqths-demo-springcloud-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-mq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/mqths-rabbitmq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/mqths-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq/mqths-rocketmq.iml" filepath="$PROJECT_DIR$/mqths-mq/mqths-rocketmq/mqths-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-rpc/mqths-rpc.iml" filepath="$PROJECT_DIR$/mqths-rpc/mqths-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqths-starter/mqths-starter.iml" filepath="$PROJECT_DIR$/mqths-starter/mqths-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqths-demo-springcloud/mqthsdemospringcloudeureka.iml" filepath="$PROJECT_DIR$/mqths-demo-springcloud/mqthsdemospringcloudeureka.iml" />
     </modules>
   </component>
 </project>

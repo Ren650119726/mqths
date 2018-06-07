@@ -53,4 +53,12 @@ public interface CoordinatorService {
     void updateFailTransaction(MqthTransaction mqthTransaction);
 
     List<MqthTransaction> listAllByDelay(Date date);
+
+    /**
+     * 根据事务查询事务
+     *
+     * @param transId
+     * @return
+     */
+    MqthTransaction findByTransId(String transId);
 }

@@ -7,7 +7,6 @@ import com.reefe.mqths.starter.config.MqthConfigProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -25,11 +24,11 @@ public class MqthSpringcloudAutoConfiguration {
     @Autowired
     private MqthConfigProperties mqthConfigProperties;
 
-
     @Bean
     public MqthConfig mqthConfig() {
         return builder().build();
     }
+
     /**
      * 注册MqthTransactionBootstrap
      *
@@ -59,4 +58,6 @@ public class MqthSpringcloudAutoConfiguration {
                 .setRecoverDelayTime(mqthConfigProperties.getRecoverDelayTime())
                 .setMqthDbConfig(mqthConfigProperties.getMqthDbConfig());
     }
+
+    
 }  

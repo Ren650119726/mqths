@@ -61,5 +61,7 @@
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.29" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.12.Final" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:21.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" level="project" />
   </component>
 </module>

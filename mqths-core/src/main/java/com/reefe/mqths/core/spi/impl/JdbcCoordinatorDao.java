@@ -232,6 +232,23 @@ public class JdbcCoordinatorDao implements CoordinatorDao {
         return null;
     }
 
+    /**
+     * 根据事务id查询事务
+     *
+     * @param transId
+     * @return
+     */
+    @Override
+    public MqthTransaction findByTransId(String transId) {
+        String selectSql = "select * from " + tableName + " where trans_id=?";
+        List<Map<String, Object>> list = executeQuery(selectSql, transId);
+        if (CollectionUtils.isNotEmpty(list)) {
+            return list.stream().filter(Objects::nonNull)
+                    .map(this::buildByResultMap).collect(Collectors.toList()).get(0);
+        }
+        return null;
+    }
+
     private MqthTransaction buildByResultMap(Map<String, Object> map) {
         MqthTransaction mqthTransaction = new MqthTransaction();
         mqthTransaction.setTransId((String) map.get("trans_id"));
