@@ -30,13 +30,17 @@
             <groupId>com.reefe.mqths</groupId>
             <artifactId>mqths-rpc</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.reefe.mqths</groupId>
             <artifactId>mqths-mq</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.reefe.mqths</groupId>
             <artifactId>mqths-rocketmq</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.reefe.mqths</groupId>
+            <artifactId>mqths-rabbitmq</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

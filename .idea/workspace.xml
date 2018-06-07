@@ -47,51 +47,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RocketmqConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq/src/main/java/com/reefe/mqths/rocketmq/RocketmqConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="85" column="117" lean-forward="false" selection-start-line="85" selection-start-column="70" selection-end-line="85" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/Use-MyStarter/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqthSendMessageServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/impl/MqthSendMessageServiceImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="79" column="86" lean-forward="false" selection-start-line="79" selection-start-column="86" selection-end-line="79" selection-end-column="86" />
+            <state relative-caret-position="988">
+              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqthMqReceiveServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/impl/MqthMqReceiveServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
-              <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitmqConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RabbitmqConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/src/main/java/com/reefe/mqths/rabbitmq/RabbitmqConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="380">
+              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1593#1594#0" expanded="true" />
@@ -153,7 +133,6 @@
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/schedule/MqthTransactionThreadFactory.java" />
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/impl/MqthInitServiceImpl.java" />
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/schedule/ScheduledService.java" />
-        <option value="$PROJECT_DIR$/Use-MyStarter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/MqthMqReceiveService.java" />
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/coordinator/CoordinatorService.java" />
@@ -165,7 +144,6 @@
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/MqthMqConsumer.java" />
         <option value="$PROJECT_DIR$/mqths-rpc/src/main/java/com/reefe/mqths/spingcloud/interceptor/RocketmqConsumer.java" />
         <option value="$PROJECT_DIR$/mqths-starter/src/main/java/com/reefe/mqths/starter/configuration/RocketmqConsumer.java" />
-        <option value="$PROJECT_DIR$/mqths-starter/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-eureka/src/main/java/com/reefe/mqths/demo/springcloud/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/resources/spring-rabbitmq.xml" />
@@ -188,7 +166,6 @@
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/java/com/reefe/mqths/demo/springcloud/order/configuration/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/mqths-mq/mqths-rocketmq/src/main/java/com/reefe/mqths/rocketmq/RocketmqConsumer.java" />
         <option value="$PROJECT_DIR$/mqths-starter/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/pom.xml" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/java/com/reefe/mqths/demo/springcloud/order/SpringcloudOrderApplication.java" />
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/impl/MqthMqReceiveServiceImpl.java" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory/src/main/resources/application.yml" />
@@ -197,7 +174,10 @@
         <option value="$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/service/MqthMqSendService.java" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Use-MyStarter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/src/main/java/com/reefe/mqths/rabbitmq/RabbitmqConfiguration.java" />
+        <option value="$PROJECT_DIR$/mqths-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/pom.xml" />
       </list>
     </option>
   </component>
@@ -209,17 +189,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mqths-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mqths-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -309,96 +279,8 @@
             <path>
               <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rocketmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqths" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-mq" type="462c0819:PsiDirectoryNode" />
-              <item name="mqths-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="mqths-demo-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mqths-demo-springcloud-order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
@@ -434,6 +316,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqths" type="462c0819:PsiDirectoryNode" />
+              <item name="Use-MyStarter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqths" type="462c0819:PsiDirectoryNode" />
+              <item name="Use-MyStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -662,11 +555,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringcloudOrderApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringCloudAccountApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringCloudInventoryApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.UseMyStarterApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.UseMyStarterApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringcloudOrderApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringCloudAccountApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringCloudInventoryApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -690,12 +583,12 @@
       <workItem from="1528106702877" duration="731000" />
       <workItem from="1528160314909" duration="27960000" />
       <workItem from="1528246538078" duration="28499000" />
-      <workItem from="1528332991935" duration="26798000" />
+      <workItem from="1528332991935" duration="28210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88636000" />
+    <option name="totallyTimeSpent" value="90048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="7" />
@@ -743,7 +636,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="36" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -752,56 +645,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/java/com/reefe/mqths/demo/springcloud/order/client/AccountClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-rpc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/java/com/reefe/mqths/demo/springcloud/order/configuration/MyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/resources/spring-rabbitmq.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mqths-core/src/main/java/com/reefe/mqths/core/handler/impl/ActorMqthTransactionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -890,22 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-inventory/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -982,14 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1090,26 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq/src/main/java/com/reefe/mqths/rocketmq/RocketmqConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="85" column="117" lean-forward="false" selection-start-line="85" selection-start-column="70" selection-end-line="85" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-account/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1516,15 +1319,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/target/classes/com/reefe/mqths/rabbitmq/RabbitmqConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Use-MyStarter/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rocketmq/src/main/java/com/reefe/mqths/rocketmq/RocketmqConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="113" column="59" lean-forward="false" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Use-MyStarter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Use-MyStarter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mqths-mq/mqths-rabbitmq/src/main/java/com/reefe/mqths/rabbitmq/RabbitmqConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="380">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1593#1594#0" expanded="true" />
             <element signature="e#1644#1645#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mqths-demo-springcloud/mqths-demo-springcloud-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

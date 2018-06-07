@@ -45,16 +45,16 @@
             <artifactId>mqths-starter</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.reefe.mqths</groupId>
-            <artifactId>mqths-rabbitmq</artifactId>
-        </dependency>
+        <!-- <dependency>
+             <groupId>com.reefe.mqths</groupId>
+             <artifactId>mqths-rabbitmq</artifactId>
+         </dependency>
 
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>4.3.0</version>
-        </dependency>
+         <dependency>
+             <groupId>com.rabbitmq</groupId>
+             <artifactId>amqp-client</artifactId>
+             <version>4.3.0</version>
+         </dependency>-->
 
         <dependency>
             <groupId>org.springframework.kafka</groupId>

@@ -1,7 +1,17 @@
 spring:
     application:
       name: use-starter
-
+#    rocketmq:
+#        namesrvAddr: localhost:9876
+#        producerGroupName: producerGroup
+#        retryTimesWhenSendFailed: 10
+#        role: producer  #指定角色 producer——生产者 consumer——消费者
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+        role: producer
 com:
   reefe :
       mqths :

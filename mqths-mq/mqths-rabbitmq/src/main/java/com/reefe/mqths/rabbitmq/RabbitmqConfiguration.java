@@ -92,8 +92,8 @@ public class RabbitmqConfiguration {
     @Bean
     public MqthMqSendService mqthMqSendService() {
         RabbitmqSendServiceImpl rabbitmqSendService = new RabbitmqSendServiceImpl();
-
         rabbitmqSendService.setAmqpTemplate(amqpTemplate);
+        LOGGER.debug("RabbitMQ.amqpTemplate register to rabbitmqSendService success");
         return rabbitmqSendService;
     }
 

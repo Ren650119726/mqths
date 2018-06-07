@@ -7599,3 +7599,182 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2018-06-07 18:04:40.845 DEBUG 12548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
 2018-06-07 18:04:40.860 DEBUG 12548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:02:32
 2018-06-07 18:04:40.880 DEBUG 12548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：
+2018-06-07 18:06:52.783  INFO 4548 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:06:54.593  INFO 4548 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1795 ms
+2018-06-07 18:06:55.078 DEBUG 4548 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:06:55.894  INFO 4548 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@783ec989: startup date [Thu Jun 07 18:06:52 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5f354bcf
+2018-06-07 18:06:56.010  INFO 4548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:06:56.014  INFO 4548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:06:56.015  INFO 4548 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:06:56.123  INFO 4548 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:06:56.123  INFO 4548 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:06:56.219  INFO 4548 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:06:56.383 DEBUG 4548 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:06:56.383 DEBUG 4548 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:06:56.422  INFO 4548 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:06:56.827 ERROR 4548 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:06:56.829  INFO 4548 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:06:57.992  INFO 4548 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.764 seconds (JVM running for 7.924)
+2018-06-07 18:07:26.830 DEBUG 4548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:07:26.837 DEBUG 4548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:05:18
+2018-06-07 18:07:27.009 DEBUG 4548 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:08:36.515  INFO 4440 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:08:38.407  INFO 4440 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1876 ms
+2018-06-07 18:08:38.901 DEBUG 4440 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:08:39.280 DEBUG 4440 --- [main] c.r.m.rocketmq.RocketmqConfiguration     : RocketMQ register producer success
+2018-06-07 18:08:40.221  INFO 4440 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6090f3ca: startup date [Thu Jun 07 18:08:36 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:08:40.419  INFO 4440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:08:40.423  INFO 4440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:08:40.424  INFO 4440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:08:40.532  INFO 4440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:08:40.532  INFO 4440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:08:40.604  INFO 4440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:08:40.753 DEBUG 4440 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:08:40.753 DEBUG 4440 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:08:40.791  INFO 4440 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:08:41.085 ERROR 4440 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:08:41.087  INFO 4440 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:08:42.141  INFO 4440 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 7.056 seconds (JVM running for 7.922)
+2018-06-07 18:09:11.087 DEBUG 4440 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:09:11.093 DEBUG 4440 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:07:03
+2018-06-07 18:09:11.157 DEBUG 4440 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:12:01.391  INFO 564 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:12:03.215  INFO 564 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1804 ms
+2018-06-07 18:12:03.727 DEBUG 564 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:12:04.488  INFO 564 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e3a39cd: startup date [Thu Jun 07 18:12:01 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:12:04.587  INFO 564 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:12:04.594  INFO 564 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:12:04.596  INFO 564 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:12:04.694  INFO 564 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:12:04.694  INFO 564 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:12:04.765  INFO 564 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:12:04.896 DEBUG 564 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:12:04.897 DEBUG 564 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:12:04.935  INFO 564 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:12:05.392 ERROR 564 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:12:05.394  INFO 564 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:12:06.543  INFO 564 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.601 seconds (JVM running for 7.499)
+2018-06-07 18:12:35.395 DEBUG 564 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:12:35.403 DEBUG 564 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:10:27
+2018-06-07 18:12:35.471 DEBUG 564 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:14:18.107  INFO 10064 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:14:19.893  INFO 10064 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1770 ms
+2018-06-07 18:14:20.351 DEBUG 10064 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:14:21.118  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11653e3b: startup date [Thu Jun 07 18:14:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:14:21.209  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:14:21.213  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:14:21.214  INFO 10064 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:14:21.306  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:14:21.306  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:14:21.381  INFO 10064 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:14:21.513 DEBUG 10064 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:14:21.513 DEBUG 10064 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:14:21.550  INFO 10064 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:14:21.911 ERROR 10064 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:14:21.913  INFO 10064 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:14:23.098  INFO 10064 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.45 seconds (JVM running for 7.356)
+2018-06-07 18:14:51.914 DEBUG 10064 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:14:51.923 DEBUG 10064 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:12:43
+2018-06-07 18:14:51.987 DEBUG 10064 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:16:20.891  INFO 12096 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:16:22.747  INFO 12096 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1841 ms
+2018-06-07 18:16:23.203 DEBUG 12096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:16:24.037  INFO 12096 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7923f5b3: startup date [Thu Jun 07 18:16:20 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@492691d7
+2018-06-07 18:16:24.129  INFO 12096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:16:24.133  INFO 12096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:16:24.133  INFO 12096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:16:24.224  INFO 12096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:16:24.225  INFO 12096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:16:24.297  INFO 12096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:16:24.429 DEBUG 12096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:16:24.429 DEBUG 12096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:16:24.466  INFO 12096 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:16:24.768 ERROR 12096 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:16:24.770  INFO 12096 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:16:25.908  INFO 12096 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.259 seconds (JVM running for 7.885)
+2018-06-07 18:16:54.771 DEBUG 12096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:16:54.788 DEBUG 12096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:14:46
+2018-06-07 18:16:54.868 DEBUG 12096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:17:59.694  INFO 13096 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:18:01.578  INFO 13096 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1869 ms
+2018-06-07 18:18:02.069 DEBUG 13096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:18:02.928  INFO 13096 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29be7749: startup date [Thu Jun 07 18:17:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:18:03.051  INFO 13096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:18:03.055  INFO 13096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:18:03.056  INFO 13096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:18:03.150  INFO 13096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:18:03.150  INFO 13096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:18:03.222  INFO 13096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:18:03.373 DEBUG 13096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:18:03.373 DEBUG 13096 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:18:03.410  INFO 13096 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:18:03.686 ERROR 13096 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:18:03.688  INFO 13096 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:18:04.828  INFO 13096 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.523 seconds (JVM running for 7.514)
+2018-06-07 18:18:33.689 DEBUG 13096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:18:33.705 DEBUG 13096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:16:25
+2018-06-07 18:18:33.789 DEBUG 13096 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:19:20.274  INFO 12912 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:19:22.101  INFO 12912 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1812 ms
+2018-06-07 18:19:22.596 DEBUG 12912 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:19:23.380  INFO 12912 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21f9277b: startup date [Thu Jun 07 18:19:20 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:19:23.491  INFO 12912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:19:23.495  INFO 12912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:19:23.495  INFO 12912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:19:23.587  INFO 12912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:19:23.588  INFO 12912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:19:23.663  INFO 12912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:19:23.796 DEBUG 12912 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:19:23.796 DEBUG 12912 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:19:23.833  INFO 12912 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:19:24.187 ERROR 12912 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:19:24.189  INFO 12912 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:19:25.310  INFO 12912 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.507 seconds (JVM running for 7.481)
+2018-06-07 18:19:54.189 DEBUG 12912 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:19:54.197 DEBUG 12912 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:17:46
+2018-06-07 18:19:54.264 DEBUG 12912 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:20:29.033  INFO 4104 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:20:30.986  INFO 4104 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1937 ms
+2018-06-07 18:20:31.542 DEBUG 4104 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:20:32.315  INFO 4104 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29be7749: startup date [Thu Jun 07 18:20:29 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1
+2018-06-07 18:20:32.408  INFO 4104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:20:32.412  INFO 4104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:20:32.413  INFO 4104 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:20:32.505  INFO 4104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:20:32.506  INFO 4104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:20:32.592  INFO 4104 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:20:32.725 DEBUG 4104 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:20:32.725 DEBUG 4104 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:20:32.762  INFO 4104 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:20:33.092 ERROR 4104 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:20:33.094  INFO 4104 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:20:34.242  INFO 4104 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 6.615 seconds (JVM running for 7.567)
+2018-06-07 18:21:03.094 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:21:03.102 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:18:55
+2018-06-07 18:21:03.167 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:23:11.168 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:23:11.168 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:21:03
+2018-06-07 18:23:11.182 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:25:19.184 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:25:19.184 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:23:11
+2018-06-07 18:25:19.187 DEBUG 4104 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
+2018-06-07 18:26:17.668  INFO 5820 --- [main] com.reefe.mqths.UseMyStarterApplication  : No active profile set, falling back to default profiles: default
+2018-06-07 18:26:19.646  INFO 5820 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1961 ms
+2018-06-07 18:26:20.215 DEBUG 5820 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:26:20.942 DEBUG 5820 --- [main] c.r.m.rabbitmq.RabbitmqConfiguration     : RabbitMQ.amqpTemplate register to rabbitmqSendService success
+2018-06-07 18:26:21.741  INFO 5820 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22fba58c: startup date [Thu Jun 07 18:26:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bb3058
+2018-06-07 18:26:21.869  INFO 5820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public void com.reefe.mqths.UseMyStarterApplication.testUseMqth()
+2018-06-07 18:26:21.873  INFO 5820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-07 18:26:21.874  INFO 5820 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-07 18:26:22.008  INFO 5820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:26:22.008  INFO 5820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:26:22.160  INFO 5820 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-07 18:26:22.334 DEBUG 5820 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfig.builder Initialization MqthConfig
+2018-06-07 18:26:22.334 DEBUG 5820 --- [main] r.m.s.c.MqthSpringcloudAutoConfiguration : MqthConfigProperties Initialization MqthConfig.builder 
+2018-06-07 18:26:22.373  INFO 5820 --- [main] c.r.m.c.c.impl.CoordinatorServiceImpl    : 系统use-starter启动
+2018-06-07 18:26:22.757 ERROR 5820 --- [main] c.r.m.core.spi.impl.JdbcCoordinatorDao   : executeUpdate-> Table 'mqth_use_starter' already exists
+2018-06-07 18:26:22.759  INFO 5820 --- [main] c.r.m.c.s.impl.MqthInitServiceImpl       : Mqth事务初始化成功！
+2018-06-07 18:26:24.150  INFO 5820 --- [main] com.reefe.mqths.UseMyStarterApplication  : Started UseMyStarterApplication in 7.829 seconds (JVM running for 9.19)
+2018-06-07 18:26:52.760 DEBUG 5820 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : auto recover execute delayTime:128
+2018-06-07 18:26:52.776 DEBUG 5820 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度延迟时间:2018-06-07 18:24:44
+2018-06-07 18:26:52.866 DEBUG 5820 --- [MythTransaction-MqthAutoRecoverService-1] c.r.m.core.schedule.ScheduledService     : 任务调度列表：4
