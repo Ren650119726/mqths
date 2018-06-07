@@ -23,7 +23,6 @@ import java.util.List;
 @ConditionalOnProperty(prefix = "spring.rocketmq", name = "namesrvAddr")
 public class RocketmqConfiguration {
 
-
     private static final Logger LOGGER = LoggerFactory.getLogger(RocketmqConfiguration.class);
 
     private static final String TOPIC = "account";
@@ -33,8 +32,6 @@ public class RocketmqConfiguration {
 
     @Autowired
     private MqthMqReceiveService mqthMqReceiveService;
-
-    @SuppressWarnings("Duplicates")
 
     @ConditionalOnProperty(prefix = "spring.rocketmq", name = "role", havingValue = "consumer", matchIfMissing = true)
     @Bean

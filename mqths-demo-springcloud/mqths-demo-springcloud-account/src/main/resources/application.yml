@@ -26,16 +26,17 @@ spring:
         connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     application:
       name: account-service
-   #rabbitmq:
-        #    host: localhost
-        #    port: 5672
-        #    username: guest
-        #    password: guest
-    rocketmq:
-          namesrvAddr: localhost:9876
-          consumerGroupName: account
-          instanceName: account
-          role: consumer
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      role: consumer
+#    rocketmq:
+#          namesrvAddr: localhost:9876
+#          consumerGroupName: account
+#          instanceName: account
+#          role: consumer
 
 
 mybatis:
